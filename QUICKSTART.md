@@ -13,13 +13,15 @@ https://github.com/user-attachments/assets/51394f0a-5277-4fe2-b81c-5c5e9ac876b5
 
 1. **Open Claude Code** (in your terminal) or **Claude Cowork** (the desktop app). Not sure which you have? If you have a terminal window open with Claude in it, that's Claude Code.
 
-2. **Add the marketplace.** In Claude Code, type `/plugin marketplace add ` (with a space at the end), then **drag the unzipped `claude-for-legal` folder onto the terminal window** — it'll fill in the path. Then press Enter.
-
-   (Or type the full path: `/plugin marketplace add /Users/you/Desktop/claude-for-legal`)
+2. **Add the marketplace.** The quickest way is directly from GitHub:
+   ```
+   /plugin marketplace add github:AimoreRRD/my-claude-for-legal
+   ```
+   Or download the ZIP from GitHub, unzip it, and drag the `my-claude-for-legal` folder onto the terminal after typing `/plugin marketplace add ` (with a space).
 
 3. **Install your plugin.** Pick the one that matches your work from the table below, then:
    ```
-   /plugin install privacy-legal@claude-for-legal
+   /plugin install privacy-legal@my-claude-for-legal
    ```
 
 4. **⚠️ Restart Claude Code.** Close and reopen. This step is not optional — the plugin isn't live until you restart.
@@ -37,7 +39,7 @@ When you run `/plugin install`, you may be asked whether to install for this pro
 
 It's counterintuitive: project scope feels safer. But project scope blocks the plugin from reading files outside the project folder — your outlines in Downloads, your contract in Documents, your client file in Dropbox. Most skills need to read your files. User scope doesn't give the plugin any extra access to your files — the plugin can only read files you explicitly point it at or that are in the current directory. It just means the plugin works from any folder instead of one.
 
-If you already installed project-scoped and want to switch: `/plugin uninstall <plugin>`, then `/plugin install <plugin>@claude-for-legal` from your home directory.
+If you already installed project-scoped and want to switch: `/plugin uninstall <plugin>`, then `/plugin install <plugin>@my-claude-for-legal` from your home directory.
 
 ## Which plugin is for me?
 
@@ -58,7 +60,7 @@ If you already installed project-scoped and want to switch: `/plugin uninstall <
 
 ## What you're installing
 
-Each plugin learns your playbook through a setup interview, writes it to a practice profile file (`~/.claude/plugins/config/claude-for-legal/<plugin>/CLAUDE.md`), and every skill reads from it. The profile is yours — edit it, re-run setup, or tell a skill to update it.
+Each plugin learns your playbook through a setup interview, writes it to a practice profile file (`~/.claude/plugins/config/my-claude-for-legal/<plugin>/CLAUDE.md`), and every skill reads from it. The profile is yours — edit it, re-run setup, or tell a skill to update it.
 
 **Every output is a draft for attorney review.** The plugins flag what they're unsure about, mark citations by source, and gate anything irreversible. A lawyer reviews, verifies, and takes responsibility. They make that review faster; they don't replace it.
 
