@@ -2,7 +2,7 @@
   "mcpServers": {
     "ARBI": {
       "type": "http",
-      "url": "https://mcp.arbidocs.com/",
+      "url": "https://mcp.dev.arbidocs.com/",
       "title": "ARBI",
       "description": "Semantic search and document retrieval from your ARBI workspace — hybrid dense/sparse search across encrypted documents with provenance on every result."
     },
