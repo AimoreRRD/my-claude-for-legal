@@ -277,7 +277,7 @@ Plugins under [`external_plugins/`](./external_plugins) are built and maintained
 | Plugin | Built by | What it adds |
 |---|---|---|
 | **[cocounsel-legal](./external_plugins/cocounsel-legal)** | Thomson Reuters | Westlaw Deep Research with fully cited reports — caselaw, statutes, regulations, Practical Law, and secondary sources across up to three U.S. jurisdictions per run. Requires a CoCounsel Legal subscription with the MCP connector enabled. Support: cocounselsupport@tr.com. |
-| **[arbidocs](./external_plugins/arbidocs)** | ARBI | AI-native encrypted document workspace for legal teams — hybrid semantic search across your own uploaded documents with citation provenance, and an AI assistant that answers questions grounded in your files. Requires an ARBI account; sign up at arbidocs.com. Support: support@arbi.city. |
+| **[arbidocs](./external_plugins/arbidocs)** | ARBI | AI-native document workspace for legal teams with encryption in transit and at rest — hybrid semantic search across your own uploaded documents with citation provenance, and an AI assistant that answers questions grounded in your files. Requires an ARBI account; sign up at arbidocs.com. Support: support@arbi.city. |
 
 ## The trust layer for community legal skills
 

@@ -1,6 +1,6 @@
 # ARBI
 
-ARBI is an AI-native document workspace for legal teams. Upload your own documents — contracts, pleadings, correspondence, research memos — and search or query them with Claude. All data is end-to-end encrypted; documents never leave your workspace unencrypted.
+ARBI is an AI-native document workspace for legal teams. Upload your own documents — contracts, pleadings, correspondence, research memos — and search or query them with Claude. Data is encrypted in transit and at rest.
 
 - Search your workspace using hybrid semantic and keyword search across all uploaded documents, with citation-level provenance on every result.
 - Ask the ARBI AI assistant questions about your documents and receive answers grounded in your own case files.
