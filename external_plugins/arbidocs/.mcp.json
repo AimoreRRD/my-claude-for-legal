@@ -2,7 +2,7 @@
   "mcpServers": {
     "ARBI": {
       "type": "http",
-      "url": "https://mcp.arbidocs.com/"
+      "url": "https://mcp.www.arbidocs.com/"
     }
   }
 }
